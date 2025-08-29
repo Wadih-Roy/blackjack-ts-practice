@@ -11,5 +11,6 @@ export interface Card {
 
 // export Dealer interface
 
-export const SUITS: Suit[] = ['Hearts', 'Diamonds', 'Clubs', 'Spades'];
-export const RANKS: Rank[] = ['2', '3', '4', '5', '6', '7', '8', '9', '10', 'J', 'Q', 'K', 'A'];
+// export SUITS and RANKS as immutable arrays
+export const SUITS: Suit[] = ['Hearts', 'Diamonds', 'Clubs', 'Spades'] as const;
+export const RANKS: Rank[] = ['2', '3', '4', '5', '6', '7', '8', '9', '10', 'J', 'Q', 'K', 'A'] as const;
