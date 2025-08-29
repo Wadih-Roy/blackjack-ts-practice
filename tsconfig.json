@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",            // modern JS output
+    "module": "commonjs",          // Node-friendly
+    "rootDir": "src",              // where your .ts files live
+    "outDir": "dist",              // compiled JS goes here
+    "strict": true,                // type safety mode
+    "esModuleInterop": true        // so you can import/export cleanly
+  },
+  "include": ["src"]               // only compile your source folder
+}
