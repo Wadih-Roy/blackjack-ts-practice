@@ -22,11 +22,13 @@
   },
   "homepage": "https://github.com/Wadih-Roy/blackjack-ts-practice#readme",
   "devDependencies": {
+    "@types/prompt-sync": "^4.2.3",
     "@vitest/coverage-v8": "^3.2.4",
     "typescript": "^5.9.2",
     "vitest": "^3.2.4"
   },
   "dependencies": {
+    "prompt-sync": "^4.2.0",
     "ts-node": "^10.9.2"
   }
 }
