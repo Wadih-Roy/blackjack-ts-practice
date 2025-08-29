@@ -4,7 +4,7 @@ console.log("Welcome to blackjack!");
 
 import { Card } from "./card";
 import { createDeck, dealCard, shuffleDeck } from "./deck";
-import { calculateHandValue } from "./hand";
+// import { calculateHandValue } from "./hand";
 
 const deck = createDeck();
 
@@ -17,4 +17,4 @@ for (let i = 0; i < 2; i++){
 
 console.log("Initial hand:", hand.map(card => `${card.rank} of ${card.suit}`).join(", "));
 
-console.log("Hand value:", calculateHandValue(hand));
+// console.log("Hand value:", calculateHandValue(hand));
